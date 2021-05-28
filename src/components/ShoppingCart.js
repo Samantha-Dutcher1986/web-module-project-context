@@ -6,6 +6,7 @@ import Item from './ShoppingCartItem';
 
 const ShoppingCart = () => {
 	const [ cart ] = useContext( cartContext );
+	const props = props;
 
 	const getCartTotal = () => {
 		return props.cart.reduce((acc, value) => {

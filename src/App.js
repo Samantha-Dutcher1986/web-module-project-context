@@ -38,7 +38,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<productContext.Provider value={[ produtcts, addItem ]}>
+			<productContext.Provider value={[ products, addItem ]}>
 				<cartContext.Provider value={[ cart ]}>
 					<Navigation />
 				</cartContext.Provider>
